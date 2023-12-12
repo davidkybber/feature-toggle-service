@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Login from "./components/Login/Login";
-import FeatureToggles from "./components/FeatureToggles/FeatureToggles";
+import Login from "./components/Login";
+import FeatureToggles from "./components/FeatureToggles";
 
 function App() {
   const [userLoggedIn, setUserLoggedIn] = useState(false);
